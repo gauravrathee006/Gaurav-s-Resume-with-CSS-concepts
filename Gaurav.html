@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaurav's Profile</title>
+  <style>
+    * {
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background-color: #2c3e50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #f1c40f;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin: 20px 0 10px;
+    }
+
+    .contact {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+      font-size: 15px;
+      color: #555;
+    }
+
+    .contact div {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    h2 {
+      color: #34495e;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    .section {
+      margin-top: 20px;
+      scroll-margin-top: 80px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #2980b9;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .interests span {
+      background-color: #ecf0f1;
+      margin: 4px;
+      padding: 6px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .icon {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="#education">Education</a>
+    <a href="#roles">Roles</a>
+    <a href="#languages">Languages</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#interests">Interests</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Gaurav</h1>
+
+    <div class="contact">
+      <div><span class="icon">📍</span> Rohtak, Haryana</div>
+      <div><span class="icon">📞</span> +91 9588553499</div>
+      <div><span class="icon">✉️</span> <a href="mailto:gauravrathee2006@gmail.com">gauravrathee2006@gmail.com</a></div>
+      <div><span class="icon">🔗</span> <a href="https://www.linkedin.com/in/gaurav-rathee-79731a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a></div>
+    </div>
+
+    <div id="education" class="section">
+      <h2>EDUCATION</h2>
+      <h3>Bachelor of Business Administration – Digital Business & Entrepreneurship</h3>
+      <p><em>Indian Institute of Management Bangalore (IIM Bangalore)</em></p>
+      <p><strong>Expected Graduation:</strong> 2027</p>
+      <p>
+        Currently pursuing a cutting-edge undergraduate program at one of India’s premier business schools,
+        with a focused curriculum in digital innovation, business strategy, and entrepreneurial leadership.
+        Gaining hands-on experience in real-world business scenarios, digital transformation, and startup incubation,
+        while developing a strong foundation in management, finance, marketing, and technology-driven business models.
+      </p>
+      <p><span class="highlight">GRADE XII</span> – Arya Model School, Rohtak<br>
+      Secured 68% in Total (2022–2023)</p>
+
+      <p><span class="highlight">GRADE X</span> – Arya Model School, Rohtak<br>
+      Secured 89.9% in Total (2020–2021)</p>
+    </div>
+
+    <div id="roles" class="section">
+      <h2>ROLES & RESPONSIBILITIES</h2>
+      <ul>
+        <li>House Captain in Grade XII</li>
+        <li>House Vice-Captain in Grade XI</li>
+        <li>Cultural Events Super Coordinator (2022–2023)</li>
+        <li>Security Team Coordinator (2021–2022)</li>
+        <li>Class Representative (Grade IX to XII)</li>
+      </ul>
+    </div>
+
+    <div id="languages" class="section">
+      <h2>LANGUAGES</h2>
+      <ul>
+        <li>Hindi</li>
+        <li>English</li>
+      </ul>
+    </div>
+
+    <div id="achievements" class="section">
+      <h2>ACHIEVEMENTS AND CERTIFICATIONS</h2>
+      <ul>
+        <li>Won the science quiz at district-level</li>
+        <li>Won the inter-house volleyball competition</li>
+        <li>Won the cricket tournament at Regional-level</li>
+        <li>Runner-up in the math olympiad at Regional-level</li>
+        <li>Runner-up in a district-level cricket tournament</li>
+        <li>Runner-up in the regional-level 'Bharat Ko Jaano' competition</li>
+      </ul>
+    </div>
+
+    <div id="interests" class="section">
+      <h2>INTERESTS</h2>
+      <div class="interests">
+        <span>Cricket</span>
+        <span>Badminton</span>
+        <span>Volleyball</span>
+        <span>Mobile Games</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
